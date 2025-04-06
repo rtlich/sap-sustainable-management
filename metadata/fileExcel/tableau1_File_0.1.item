@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_32MAIA9GEfCeeJE0borM_w" name="tableau1_File" dataPackage="_32MAIQ9GEfCeeJE0borM_w" Server="Localhost 127.0.0.1" FilePath="C:/Users/TAREK/Desktop/PI/Data/tableau1.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_32MAIQ9GEfCeeJE0borM_w" name="default" dataManager="_32MAIA9GEfCeeJE0borM_w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_32MnMA9GEfCeeJE0borM_w" id="_zuIloA9GEfCeeJE0borM_w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_32MnMQ9GEfCeeJE0borM_w" label="Species" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_32MnMg9GEfCeeJE0borM_w" label="Total_Kg_CO2_Year" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_32MnMw9GEfCeeJE0borM_w" label="Trees_km" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_32MnNA9GEfCeeJE0borM_w" label="Public_Area" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_32MnNQ9GEfCeeJE0borM_w" label="Average_Kg_CO2_Tree_Year" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

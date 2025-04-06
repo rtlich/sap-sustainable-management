@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_GnftwQ9GEfCeeJE0borM_w" name="Tunisi_Data_FILE" dataPackage="_GngU0A9GEfCeeJE0borM_w" Server="Localhost 127.0.0.1" FilePath="C:/Users/TAREK/Desktop/PI/Data/tunisia_data.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Worldometers" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Worldometers:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_GngU0A9GEfCeeJE0borM_w" name="default" dataManager="_GnftwQ9GEfCeeJE0borM_w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_GngU0Q9GEfCeeJE0borM_w" id="_464MwA9FEfCeeJE0borM_w" label="tunisia_data_World_Metrs">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GngU0g9GEfCeeJE0borM_w" label="Year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GngU0w9GEfCeeJE0borM_w" label="Fossil_CO2__Emissions__tons" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GngU1A9GEfCeeJE0borM_w" label="CO2_emisions_change" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GngU1Q9GEfCeeJE0borM_w" label="CO2_emissions_per_capita" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GngU1g9GEfCeeJE0borM_w" label="Population" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GngU1w9GEfCeeJE0borM_w" label="Pop__change" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GngU2A9GEfCeeJE0borM_w" label="Share_of_World_s__CO2_emissions" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

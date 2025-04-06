@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_m5m4UA9IEfCeeJE0borM_w" name="Material_File" dataPackage="_m5m4UQ9IEfCeeJE0borM_w" Server="Localhost 127.0.0.1" FilePath="C:/Users/TAREK/Desktop/PI/Data/Materials.txt" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_m5m4UQ9IEfCeeJE0borM_w" name="default" dataManager="_m5m4UA9IEfCeeJE0borM_w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_m5m4Ug9IEfCeeJE0borM_w" id="_3GyHAA9HEfCeeJE0borM_w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m5m4Uw9IEfCeeJE0borM_w" label="Material_ID" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m5m4VA9IEfCeeJE0borM_w" label="Material_Name" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m5m4VQ9IEfCeeJE0borM_w" label="Type" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m5m4Vg9IEfCeeJE0borM_w" label="Unit_Price" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m5m4Vw9IEfCeeJE0borM_w" label="Stock_Initial" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m5m4WA9IEfCeeJE0borM_w" label="Supplier_ID" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m5m4WQ9IEfCeeJE0borM_w" label="Total_Stock_Value" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m5m4Wg9IEfCeeJE0borM_w" label="Arrival_Date" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m5m4Ww9IEfCeeJE0borM_w" label="Carbon_Footprint_per_Unit_kgCO2e" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m5m4XA9IEfCeeJE0borM_w" label="Transport_Distance_km" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m5m4XQ9IEfCeeJE0borM_w" label="Recycled_Packaging" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m5m4Xg9IEfCeeJE0borM_w" label="Water_Consumption_per_Unit_liters" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

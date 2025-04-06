@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_to5a0A9IEfCeeJE0borM_w" name="Suppliers_File" dataPackage="_to5a0Q9IEfCeeJE0borM_w" Server="Localhost 127.0.0.1" FilePath="C:/Users/TAREK/Desktop/PI/Data/Suppliers.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_to5a0Q9IEfCeeJE0borM_w" name="default" dataManager="_to5a0A9IEfCeeJE0borM_w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_to5a0g9IEfCeeJE0borM_w" id="_pAvj8A9IEfCeeJE0borM_w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_to5a0w9IEfCeeJE0borM_w" label="Supplier_ID" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_to5a1A9IEfCeeJE0borM_w" label="Supplier_Name" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_to5a1Q9IEfCeeJE0borM_w" label="Location" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_to5a1g9IEfCeeJE0borM_w" label="Contact_Email" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_to5a1w9IEfCeeJE0borM_w" label="Phone_Number" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_to5a2A9IEfCeeJE0borM_w" label="Environmental_Certifications" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_to5a2Q9IEfCeeJE0borM_w" label="Transport_Type" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_to5a2g9IEfCeeJE0borM_w" label="Renewable_Energy_Percentage" length="13" precision="11" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_to5a2w9IEfCeeJE0borM_w" label="Sustainability_Program" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
