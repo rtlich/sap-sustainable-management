@@ -22,9 +22,12 @@ Project for the ERP &amp; BI course at Esprit School of Engineering. It optimize
 
 | KPI | Formula | Threshold |
 |-----|---------|-----------|
-| 🧮 **Inventory Optimization Index** | `(Current Stock / Initial Stock) × 100` | ≥80% = Optimal |
+| 🧮 **Inventory Optimization Index** |  DIVIDE(SUM('Fact_Ressource'[Current_Stock]), SUM('Fact_Ressource'[Stock_Initial])) * 100 | ≥80% = Optimal |
 | 🌿 **Supplier Sustainability** | `Renewable Energy % + Certifications` | ≥70 = Excellent |
-| ⚡ **Equipment Reliability** | `100 - (Breakdowns/Total Equipment)×100` | ≥85% = Good |
+| ⚡ **Revenue_contibution** | `divide(sum(Fact_Ressource[Expected_revenue]),52300000)`  |
+| 🚀**Total_products_sold** |sum(Fact_Ressource[Stock_Initial])-sum(Fact_Ressource[Current_Stock])
+
+ 
 
 ---
 
